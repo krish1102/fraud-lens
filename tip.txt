@@ -1,0 +1,6 @@
+# Terminal 1 — API
+cd c:\Users\KRISH\Desktop\Programming\fraud-lens
+.venv\Scripts\uvicorn api.main:app --reload --port 8000
+
+# Terminal 2 — Dashboard
+.venv\Scripts\streamlit run app/streamlit_app.py

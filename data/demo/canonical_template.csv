@@ -1,0 +1,3 @@
+transaction_id,customer_id,timestamp,amount,merchant_id,device_id,ip_address,location,beneficiary_id,payment_method
+T001928,C00042,2026-09-01 10:30:00,1250.5,M0028,D091,203.0.113.10,Delhi,B441,card
+T001929,C00042,2026-09-01 10:35:12,45.0,M0015,D091,203.0.113.10,Delhi,,upi

@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data files (can be regenerated via setup script)
+data/raw/
+data/rag_index.json
+
+# Model artifacts (can be regenerated via setup script)
+models/supervised_fraud_model.joblib
+models/anomaly_isolation_forest.joblib
+
+# SQLite database
+fraudlens.db
+*.sqlite
+*.sqlite3
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
